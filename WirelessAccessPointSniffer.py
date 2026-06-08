@@ -3,8 +3,9 @@ import re
 import time
 
 #This is made to run an ESP32 Wrover module. Upload it via Arduino IDE. In the console, it rpints the strength, name, and MAC address of nearby WAPs.
+#All computing is processed with this script, iot requires no code on the part of the ESP32
 
-SERIAL_PORT = 'COM6' 
+SERIAL_PORT = 'COM6' #Change this to the port you are using
 BAUD_RATE = 115200
 TIMEOUT_SECONDS = 10  
 devices = {}
