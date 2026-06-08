@@ -2,7 +2,7 @@ import serial
 import re
 import time
 
-#This is made to run an ESP32 Wrover module. Upload it via Arduino IDE. In the console, it rpints the strength, anem, and MAC address of nearby WAPs.
+#This is made to run an ESP32 Wrover module. Upload it via Arduino IDE. In the console, it rpints the strength, name, and MAC address of nearby WAPs.
 
 SERIAL_PORT = 'COM6' 
 BAUD_RATE = 115200
